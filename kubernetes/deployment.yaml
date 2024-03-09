@@ -8,14 +8,14 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: Petclinic
+      app: petclinic
   template:
     metadata:
       labels:
-        app: Petclinic
+        app: petclinic
     spec:
       containers:
-      - name: Petclinic
+      - name: petclinic
         image: elchinbehbudov/petclinicapp
         ports:
         - containerPort: 8080
