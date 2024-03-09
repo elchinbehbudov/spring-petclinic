@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: Petclinic-deployment
+  name: petclinic-deployment
   labels:
-    app: Petclinic-deployment
+    app: petclinic-deployment
 spec:
   replicas: 1
   selector:
